@@ -1,0 +1,88 @@
+hellozaynab.github.io/
+│
+├── index.html                <-- Homepage
+├── poetry.html               <-- Poetry section
+├── essays.html               <-- Essays section
+├── photography.html          <-- Photography gallery
+│
+├── poems/
+│   └── your-poem-title.html
+│
+├── essays/
+│   └── your-essay-title.html
+│
+├── photos/
+│   └── your-image.jpg
+│
+├── assets/
+├── images/                   <-- for placeholder images
+└── css/                      <-- I’ll edit for fonts/colors
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>zaynab fatima</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1 {
+      font-family: 'DM Serif Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-[#FAF8F6] text-[#403F3C]">
+
+  <!-- Main container -->
+  <div class="min-h-screen flex flex-col items-center justify-center px-4 py-16">
+
+    <!-- Name -->
+    <h1 class="text-5xl md:text-7xl text-[#5C574F] lowercase tracking-wide mb-4">
+      zaynab fatima
+    </h1>
+
+    <!-- Tagline substitute -->
+    <p class="text-center max-w-xl text-[#7C786F] text-lg md:text-xl mb-12">
+      storyteller, wanderer, memory keeper
+    </p>
+
+    <!-- About me section -->
+    <div class="text-center max-w-2xl mb-16">
+      <p class="text-[#5C574F] text-base md:text-lg leading-relaxed">
+        i write, photograph, and occasionally hum into the void. this is a soft curation of my inner and outer worlds. this page is a gentle gateway into three things i hold dear.
+      </p>
+    </div>
+
+    <!-- Links to sections -->
+    <div class="flex flex-col md:flex-row gap-6">
+      <a href="#writing" class="px-6 py-3 bg-[#D8CBC4] hover:bg-[#E9DFDA] text-[#403F3C] rounded-full text-lg transition">
+        writing
+      </a>
+      <a href="#visuals" class="px-6 py-3 bg-[#D0E3DD] hover:bg-[#E1F0EB] text-[#403F3C] rounded-full text-lg transition">
+        visuals
+      </a>
+      <a href="#sound" class="px-6 py-3 bg-[#F5DCE6] hover:bg-[#FBE9F1] text-[#403F3C] rounded-full text-lg transition">
+        sound
+      </a>
+    </div>
+  </div>
+
+  <!-- Placeholder sections -->
+  <section id="writing" class="min-h-screen bg-[#F5F2EF] flex items-center justify-center text-3xl text-[#5C574F]">
+    writing section
+  </section>
+
+  <section id="visuals" class="min-h-screen bg-[#E9F1F0] flex items-center justify-center text-3xl text-[#5C574F]">
+    visuals section
+  </section>
+
+  <section id="sound" class="min-h-screen bg-[#FDEDF4] flex items-center justify-center text-3xl text-[#5C574F]">
+    sound section
+  </section>
+
+</body>
+</html>
+
